@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tan"
+    tools:context=".AwalTemanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Masukkan NIM"/>
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Nama "
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kelas"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/tlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="telepone"/>
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/sosmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sosial Media"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"/>
+
+        <Button
+            android:id="@+id/btnTampil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Teman"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

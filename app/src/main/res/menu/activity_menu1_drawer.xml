@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profil"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="@string/Profil" />
+        <item
+            android:id="@+id/Kontak"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="@string/Kontak" />
+        <item
+            android:id="@+id/Teman"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="@string/DaftarTeman" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="@string/AboutAPP" />
+    </group>
+
+
+
+</menu>

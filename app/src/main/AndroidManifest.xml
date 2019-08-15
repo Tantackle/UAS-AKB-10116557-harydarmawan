@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uas">
+
+    <application
+        android:name="com.example.uas.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.uas.OnBoardingActivity"></activity>
+        <activity android:name="com.example.uas.KontakActivity"></activity>
+        <activity android:name="com.example.uas.ProfilActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uas.MenuActivity1"
+            android:label="@string/title_activity_menu1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.uas.Home" />
+        <activity android:name="com.example.uas.AwalActivity" />
+        <activity android:name="com.example.uas.RegisterActivity" />
+        <activity android:name="com.example.uas.AwalTemanActivity" />
+        <activity android:name="com.example.uas.MainActivity">
+
+        </activity>
+        <activity android:name="com.example.uas.TemanActivity" />
+        <activity android:name="com.example.uas.DetailActivity" />
+    </application>
+
+</manifest>
